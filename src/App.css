@@ -1,2 +1,8 @@
 @import "tailwindcss";
 
+
+@layer components{
+  .btnPrimary{
+    @apply rounded-2xl py-2 px-4 font-semibold;
+  }
+}
