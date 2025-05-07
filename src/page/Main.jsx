@@ -5,6 +5,7 @@ import "../App.css";
 import CardInformativo from "../components/Cards/CardInformativo";
 import SubMenu from "../components/SubMenu";
 import CardPartido from "../components/Cards/CardPartido";
+import InfoExtra from "../components/InfoExtra";
 
 function Main(){
 
@@ -85,7 +86,8 @@ function Main(){
                 </div>
             </section>
 
-            
+            <InfoExtra />
+
         </main>
 
     )
