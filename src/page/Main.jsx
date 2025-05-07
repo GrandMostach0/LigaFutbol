@@ -4,6 +4,7 @@ import "../App.css";
 
 import CardInformativo from "../components/Cards/CardInformativo";
 import SubMenu from "../components/SubMenu";
+import CardPartido from "../components/Cards/CardPartido";
 
 function Main(){
 
@@ -39,16 +40,43 @@ function Main(){
 
             </section>
 
-            <section className="flex gap-5">
+            <section className="flex gap-5 mb-10">
                 <div className="flex-1/2">
                     <div className="flex items-center justify-between mb-5">
                         <h1 className="font-bold text-2xl">Partidos</h1>
                         <SubMenu opciones={ListaSubOpciones} />
                     </div>
 
-                    <div>
-                        <h1>Hola</h1>
+                    <div className="flex flex-col gap-5">
+                        <CardPartido
+                        key={1}
+                        Categoria={"Infantil"}
+                        EquipoLocal={"America"}
+                        EquipoVisitante={"Chivas"}
+                        Estadio={"Telchaquillo"}
+                        Fecha={"25 de marzo de 2025"}
+                        Hora={"15:00"}/>
+                        
+                        <CardPartido
+                        key={2}
+                        Categoria={"Infantil"}
+                        EquipoLocal={"America"}
+                        EquipoVisitante={"Chivas"}
+                        Estadio={"Telchaquillo"}
+                        Fecha={"25 de marzo de 2025"}
+                        Hora={"15:00"}/>
+
+                        <CardPartido
+                        key={3}
+                        Categoria={"Infantil"}
+                        EquipoLocal={"America"}
+                        EquipoVisitante={"Chivas"}
+                        Estadio={"Telchaquillo"}
+                        Fecha={"25 de marzo de 2025"}
+                        Hora={"15:00"}/>
                     </div>
+
+                    <button className="cursor-pointer border border-gray-500/50 w-full py-1 rounded-xl mt-2" onClick={() => navigate("/Partidos")}>Ver todos los Partido</button>
                 </div>
 
                 <div className="flex-1/4">
@@ -56,6 +84,8 @@ function Main(){
                     <SubMenu opciones={ListaSubOpciones2} />
                 </div>
             </section>
+
+            
         </main>
 
     )
