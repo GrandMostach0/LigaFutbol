@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function FooterBar() {
     return(
-        <footer className="flex justify-around px-16 py-3 text-center border-t-1 border-gray-200">
+        <footer className="flex justify-around px-16 py-3 text-center border-t-1 border-gray-200 text-white bg-slate-950">
             <section>
                 <div className="mb-5">
                     <h1 className="font-bold">Liga de Futbol</h1>

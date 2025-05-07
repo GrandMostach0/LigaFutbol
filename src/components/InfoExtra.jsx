@@ -10,7 +10,6 @@ function InfoExtra() {
             <p className="text-xl">¿Quieres formar parte de nuestra comunidad? Inscribe a tu equipo en nuestras competiciones.</p>
             <br />
             <button className="btnPrimary bg-black text-white mr-5" onClick={() => navigate("/Inscripcion")}>Inscribe tu equipo</button>
-
         </section>
     )
 }

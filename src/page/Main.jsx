@@ -17,8 +17,8 @@ function Main(){
         <main className="w-[1200px] m-auto">
             <section className="py-35">
                 <div className="m-auto w-2xl text-center">
-                    <h1 className="font-bold text-5xl mb-2">Liga de Futbol 2025</h1>
-                    <p>Toda la emoción del fútbol en un solo lugar. Sigue a tu equipo favorito en todas las categorías.</p>
+                    <h1 className="font-bold text-5xl mb-5">Liga de Futbol 2025</h1>
+                    <p className="text-xl">Toda la emoción del fútbol en un solo lugar. Sigue a tu equipo favorito en todas las categorías.</p>
                     <br />
                     <button onClick={() => navigate("/Partidos")} className="btnPrimary text-white bg-black">Ver partidos</button>
                     <button onClick={() => navigate("/Clasificacion")} className="btnPrimary">Clasificación</button>
@@ -81,7 +81,7 @@ function Main(){
                 </div>
 
                 <div className="flex-1/4">
-                    <h1 className="font-bold text-2xl mb-2">Clásificación</h1>
+                    <h1 className="font-bold text-2xl mb-2">Clasificación</h1>
                     <SubMenu opciones={ListaSubOpciones2} />
                 </div>
             </section>
